@@ -4,6 +4,7 @@ const showDialogButton = document.getElementById("showDialog");
 const bookDialog = document.getElementById("bookDialog");
 const form = document.querySelector("form");
 const confirmButton = document.getElementById("confirmButton");
+const coancelButton = document.getElementById("cancelButton");
 const titleInput = document.getElementById("title");
 const authorInput = document.getElementById("author");
 const pagesInput = document.getElementById("pages");
@@ -43,6 +44,11 @@ confirmButton.addEventListener("click", () => {
     bookDialog.close();
   }
 });
+
+coancelButton.addEventListener("click", () => {
+  form.reset();
+  bookDialog.close();
+})
 
 // Book constructor
 function Book(title, author, pages, readStatus) {
