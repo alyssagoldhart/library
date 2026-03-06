@@ -25,6 +25,12 @@ This project focuses on practicing **JavaScript objects, constructors, DOM manip
 
 ---
 
+## Live Demo
+
+https://alyssagoldhart.github.io/library/
+
+---
+
 ## Project Structure
 
 ```
